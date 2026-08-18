@@ -1,6 +1,5 @@
-"use client";
-
 import Image from "next/image";
+import Link from "next/link";
 
 const memories = [
   {
@@ -50,6 +49,9 @@ export default function LetterPage() {
           <p className="memory-letter-signature">
             Хайртай шүү, Үнсье
           </p>
+          <Link className="video-page-link" href="/video">
+            Мэндчилгээний видеог үзэх <span>♥</span>
+          </Link>
         </article>
 
         <div className="memory-grid">
